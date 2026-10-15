@@ -15,6 +15,8 @@ jobs:
   sync:
     name: Sync
     runs-on: ubuntu-latest
+    env:
+      WEREAD_SKILL_VERSION: "1.0.5"
     steps:
       - name: Checkout
         uses: actions/checkout@v7
